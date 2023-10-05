@@ -1,0 +1,223 @@
+@charset "UTF-8" 
+    
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+  
+body {
+    background-color: rgb(255, 207, 136);
+    margin:0;
+}
+    
+ header{
+    background-image:url(images/good_index_banner.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 590px;
+    overflow: hidden;
+}
+
+.navbar ul{
+    font-family: lexend deca;
+    list-style: none;
+    padding-right:100px;
+    margin: 0;
+    text-align: right;
+}
+
+.navbar li{
+    display: inline-block;
+/*
+    border-style: solid;
+    border-color: rgb(59, 157, 212);
+    background-color: rgb(59, 157, 212);
+    border-radius: 50px;
+*/
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    width: 130px;
+    display: block;
+    padding: 25px 20px;
+    font-family: lexend;
+    font-size: 20px;
+    text-align: center;
+}
+
+.title{
+    font-family: montserrat alternates;
+    color: #fff;
+    padding-left: 150px;
+    font-size-adjust: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.houstons{
+    font-size: 25px;
+    border-style: none;
+    margin-bottom: -3em;
+}
+
+.helping{
+    font-size: 31px;
+    border-style: none;
+    margin-bottom: -3.4em;
+}
+
+.patitas{
+    font-size: 42px;
+    border-style: none;
+    margin-bottom: -2em;
+}
+
+.sub-title{
+    font-family: montserrat alternates;
+    color: #fff;
+    padding-left: 150px;
+    border-style: none;
+}
+
+p{
+    font-family: lexend;
+    color: #fff;
+}
+
+.intro{
+    margin: 11em 11em 7em 11em;
+    background-color: bisque;
+    border: solid;
+    border-color: bisque;
+    box-shadow: 6px 6px 5px rgb(94, 81, 81);
+    width: 1000px;
+    height:330px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20;
+    align-content: center;
+}
+
+.intro img{
+    width: 400px;
+    padding: 30px;
+    border-style: none;
+    border-radius: 250px;
+}
+
+.intro p{
+    width: 500px;
+    text-align: left;
+    color: black;
+}
+
+.paws{
+    border: none;
+    margin-bottom: -17em;
+    background-color: rgb(59, 157, 212);
+}
+
+.stories{
+    background-color: rgb(255, 207, 136);
+    background-size: 500px;
+    margin-bottom: 5em;
+}
+
+.stories h2{
+    color: rgb(94, 81, 81);
+    text-align: left;
+    padding-left: 50px;
+}
+
+.row {
+    display: flex;
+    justify-content:center; 
+    padding-left: 55px;
+    padding-right: 55px;
+    justify-content: space-between;
+    position:relative;
+    text-align: center;
+}
+
+.left p{
+    font: lexend deca;
+    position:absolute;
+    top: 80%;
+    left: 7%;
+    font-size: 30px;    
+}
+
+.middle p{
+    font: lexend deca;
+    position:absolute;
+    top: 80%;
+    left: 40%;
+    font-size: 30px;
+}
+
+.right p{
+    position:absolute;
+    top: 80%;
+    left: 75%;
+    font-size: 30px;
+}
+
+h2{
+    font-family: montserrat alternates;
+    font-size: 50px;
+    color: #fff;
+    text-align: right;
+    padding-right: 150px;
+}
+
+
+.third {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(59, 157, 212);
+}
+
+.third h2 {
+    text-align: right;
+    padding-right: 50px;
+}
+
+.map{
+    padding-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-right: 15px;
+    padding-bottom: 70px;
+}
+
+.maptext p{
+    text-align: right;
+    width: 260px;
+}
+
+.map a{
+    padding: 40px;
+}
+
+footer{
+    padding-top: 10px;
+}
+
+footer p{
+    text-align: center;
+    color: rgb(94, 81, 81);
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+    
+
+
+
+
+

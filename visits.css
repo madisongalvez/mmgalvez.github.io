@@ -1,0 +1,294 @@
+@charset "UTF-8" 
+    
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+  
+body {
+    background-color: rgb(59, 157, 212);
+    margin:0;
+}
+
+header{
+    background-image:url(images/visits.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+}
+
+.navbar ul{
+    font-family: lexend deca;
+    list-style: none;
+    padding-right:100px;
+    margin: 0;
+    text-align: right;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    width: 130px;
+    display: block;
+    padding: 25px 20px;
+    font-family: lexend;
+    font-size: 20px;
+    text-align: center;
+}
+
+.title{
+    font-family: montserrat alternates;
+    color: #fff;
+    padding-left: 160px;
+    font-size-adjust: auto;
+    font-size: 42px;
+    border-style: none;
+    margin-bottom: -2em;
+}
+
+.intro{
+    margin: 2em 11em 7em 11em;
+    background-color: rgb(255, 207, 136);
+    border: solid;
+    border-color: rgb(255, 207, 136);
+    box-shadow: 1px 1px 12px rgb(94, 81, 81);
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20;
+    align-content: center;
+}
+
+.intro img{
+    width: 400px;
+    padding: 30px;
+    border-style:none;
+    border-radius: 250px;
+}
+
+p{
+    font-family: lexend;
+    color: #fff;
+}
+
+.intro p{
+    width: 500px;
+    text-align: left;
+    color: black;
+}
+
+h2{
+    font-family: montserrat alternates;
+    font-size: 50px;
+    color: rgb(94, 81, 81);
+    padding-right: 150px;
+}
+
+h3{
+    font-family: montserrat alternates;
+    font-size: 25px;
+    color: floralwhite;
+}
+
+.visit {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: center;
+    background-color: rgb(255, 207, 136);
+    height: 500px;
+    padding-bottom: 50px;
+}
+
+.visittext {
+    text-align: left;
+    width: 425px;
+    display:flex;
+    flex-direction: column;
+    padding-left: 250px;
+    
+}
+
+.visittext p {
+    color: black;
+}
+
+.visit h2 {
+    text-align: left;
+    padding-right: 50px;
+    
+}
+
+.visitpic{
+    padding-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-right: 15px;
+    padding-bottom: 70px;
+}
+
+.visitpic a{
+    padding: 40px;
+}
+
+.visitbenefits{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 250px;
+    margin-top: 25px;
+    padding-bottom: 50px;
+}
+
+.visitbenefits p{
+    color: floralwhite;
+}
+    
+.stress{
+    border: none;
+    width: 370px;
+    padding-right: 200px;
+    margin-bottom: -4em;
+}
+
+.social{
+    border: none;
+    width: 370px;
+    padding-right: 200px;
+    margin-bottom: -4em;
+}
+
+.comfort{
+    border: none;
+    width: 370px;
+    padding-right: 200px;
+    padding-top: 50px;
+}
+
+.activity{
+    border: none;
+    width: 370px;
+    padding-top: 50px;
+}
+
+.adoption {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    align-content: center;
+    padding-top: 25px;
+    background-color: rgb(255, 207, 136);
+    height: 400px;
+    padding-bottom: 50px; 
+}
+
+.adoptiontext {
+    text-align: left;
+    width: 425px;
+    display:flex;
+    flex-direction: column;
+    padding-right: 200px;   
+}
+
+.adoptiontext p{
+    color:black;
+}
+
+.adoptionpic{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 250px;
+    
+}
+
+.adoptionpic a{
+    padding: 40px;
+}
+
+h3{
+    font-family: montserrat alternates;
+    font-size: 25px;
+    color: floralwhite;
+}
+
+.adoptionvisit{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 250px;
+    margin-top: 25px;
+}
+
+.adoptionvisit p{
+    color: floralwhite;
+}
+    
+.greet{
+    border: none;
+    width: 370px;
+    padding-right: 200px;
+}
+
+.compatibility{
+    border: none;
+    width: 370px;
+    padding-right: 200px;
+}
+
+.education{
+    border: none;
+    width: 370px;
+    padding-right: 200px;
+    padding-top: 50px;
+}
+
+.support{
+    border: none;
+    width: 370px;
+    padding-top: 50px;
+}
+
+.conclusion{
+    margin-top: 4em;
+    margin-left: 7em;
+    margin-bottom: 4em;
+    background-color: floralwhite;
+    border: solid;
+    border-color: floralwhite;
+    box-shadow: 1px 1px 12px rgb(94, 81, 81);
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20;
+    align-content: center;
+}
+
+.conclusion p{
+    width: 350px;
+    text-align: left;
+    color: rgb(59, 157, 212);
+    font-family: montserrat alternates;
+    font-size: 20px;
+    padding-left: 150px;
+}
+
+footer p{
+    text-align: center;
+    color: rgb(94, 81, 81);
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: floralwhite
+}
+
+

@@ -1,0 +1,206 @@
+@charset "UTF-8" 
+    
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+  
+body {
+    background-color: rgb(255, 207, 136);
+    margin:0;
+}
+
+header{
+    background-image:url(images/about_banner.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+}
+
+.navbar ul{
+    font-family: lexend deca;
+    list-style: none;
+    padding-right:100px;
+    margin: 0;
+    text-align: right;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    width: 130px;
+    display: block;
+    padding: 25px 20px;
+    font-family: lexend;
+    font-size: 20px;
+    text-align: center;
+}
+
+.title{
+    font-family: montserrat alternates;
+    color: #fff;
+    padding-left: 150px;
+    font-size-adjust: auto;
+}
+
+.about{
+    font-size: 42px;
+    border-style: none;
+    margin-bottom: -2em;
+}
+
+.intro{
+    margin: 19em 11em 7em 11em;
+    background-color: bisque;
+    border: solid;
+    border-color: bisque;
+    box-shadow: 1px 1px 12px rgb(94, 81, 81);
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20;
+    align-content: center;
+}
+
+.intro img{
+    width: 400px;
+    padding: 30px;
+    border-style:none;
+    border-radius: 250px;
+}
+
+p{
+    font-family: lexend;
+    color: #fff;
+}
+
+.intro p{
+    width: 500px;
+    text-align: left;
+    color: black;
+}
+
+.paws{
+    border: none;
+    margin-bottom: -17em;
+    background-color: rgb(59, 157, 212);
+}
+
+h2{
+    font-family: montserrat alternates;
+    font-size: 50px;
+    color: #fff;
+    padding-right: 150px;
+}
+
+.mission {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(59, 157, 212);
+    height: 450px;
+    box-shadow: 1px 1px 12px 3px rgb(94, 81, 81);
+    align-items: flex-start;
+    align-content: center;
+}
+
+.missiontext {
+    text-align: left;
+    width: 425px;
+    display:flex;
+    flex-direction: column;
+    padding-left: 250px;
+    
+}
+
+.mission h2 {
+    text-align: left;
+    padding-right: 50px;
+    
+}
+
+.missionpic{
+    padding-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-right: 15px;
+    padding-bottom: 70px;
+}
+
+.missionpic a{
+    padding: 40px;
+}
+
+h3{
+    font-family: montserrat alternates;
+    font-size: 25px;
+    color: rgb(59, 157, 212);
+}
+
+.apart{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 250px;
+    margin-top: 300px;
+    background-color: bisque;
+    box-shadow: 1px 1px 12px 3px rgb(94, 81, 81);
+    height: 800px;
+}
+
+.apart h2{
+    padding-right: 400px;
+    color: rgb(94, 81, 81);
+    border: none;
+    margin-bottom: -1.6em;
+}
+
+.apart p{
+    color: black;
+}
+    
+.holistic{
+    border: none;
+    width: 370px;
+    padding-right: 200px;
+    margin-bottom: -4em;
+}
+
+.therapy{
+    border: none;
+    width: 370px;
+    padding-right: 200px;
+    margin-bottom: -4em;
+}
+
+.community{
+    border: none;
+    width: 370px;
+    padding-right: 200px;
+}
+
+.ethical{
+    border: none;
+    width: 370px;
+}
+
+footer p{
+    text-align: center;
+    color: rgb(94, 81, 81);
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+

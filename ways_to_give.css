@@ -1,0 +1,273 @@
+@charset "UTF-8" 
+    
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+
+body {
+    background-color: bisque;
+    margin:0;
+}
+
+header{
+    background-image:url(images/index_banner_1500.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 550px;
+    overflow: hidden;
+}
+
+.navbar ul{
+    font-family: lexend deca;
+    list-style: none;
+    padding-right:100px;
+    margin: 0;
+    text-align: right;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    width: 130px;
+    display: block;
+    padding: 25px 20px;
+    font-family: lexend;
+    font-size: 20px;
+    text-align: center;
+}
+
+.title{
+    font-family: montserrat alternates;
+    color: floralwhite;
+    padding-left: 150px;
+    font-size-adjust: auto;
+}
+
+.ways{
+    font-size: 30px;
+    border-style: none;
+    margin-bottom: -4em;
+}
+
+.to{
+    font-size: 72px;
+    border-style: none;
+    margin-bottom: -1.8em;
+}
+
+.give{
+    font-size: 42px;
+    border-style: none;
+    margin-bottom: -2em;
+}
+
+.paws{
+    border: none;
+    margin-bottom: -17em;
+    background-color: rgb(59, 157, 212);
+   
+}
+
+.intro{
+    margin: 20em 11em 5em 13em;
+    background-color: rgb(59, 157, 212);
+    border: solid;
+    border-color: rgb(59, 157, 212);
+    box-shadow: 1px 1px 12px rgb(94, 81, 81);
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20;
+    align-content: center;
+}
+
+.intro img{
+    width: 400px;
+    padding: 30px;
+    border-style:none;
+    border-radius: 250px;
+}
+
+.intro p{
+    width: 500px;
+    text-align: left;
+    color: floralwhite;
+    font-family: montserrat alternates;
+    font-size: 30px;
+}
+
+p{
+    font-family: lexend;
+    color: black;
+}
+
+h2{
+    font-family: montserrat alternates;
+    color: rgb(59, 157, 212);
+    font-size: 50px;
+}
+
+.volunteer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.volunteertext {
+    text-align: left;
+    width: 425px;
+    display:flex;
+    flex-direction: column;
+    padding-left: 250px;
+    
+}
+
+.volunteer h2 {
+    text-align: left;
+    padding-right: 50px;
+    
+}
+
+.volunteerpic{
+    padding-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-right: 15px;
+    padding-bottom: 70px;
+}
+
+.volunteerpic a{
+    padding: 40px;
+}
+
+.applications button{
+      border: none;
+      border-radius: 5px;
+      color: beige;
+      padding: 15px 32px;
+      text-align: center;
+      font-family: lexend;
+      font-size: 20px;
+      margin: 4px 2px;
+      cursor: pointer;
+      background-color: rgb(59, 157, 212);
+}
+
+.donations {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.donatetext {
+    text-align: left;
+    width: 425px;
+    display:flex;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-bottom: 50px;
+    border-bottom-style: solid;
+    border-color: rgb(255, 207, 136);
+    background-color: rgb(255, 207, 136);
+    border-radius: 20px;
+}
+
+.donatetext button{
+      display: flex;
+      flex-flow: row wrap;
+      border: none;
+      border-radius: 5px;
+      color: beige;
+      padding: 15px 32px;
+      text-align: center;
+      display: inline-block;
+      width: 275px;
+      font-family: lexend;
+      font-size: 20px;
+      margin: 4px 2px;
+      cursor: pointer;
+      background-color: rgb(59, 157, 212);  
+}
+
+.donatepic{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-left: 200px;
+    padding-bottom: 70px;
+    padding-right: 40px;
+}
+
+.prices{
+    padding-right:80px;
+}
+
+.prices button {
+  border: none;
+  border-radius: 5px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100px;
+  font-family: lexend;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: beige;
+} 
+
+footer p{
+    font-family: lexend;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(59, 157, 212);
+    margin: 0;
+    padding-top: 15px;
+    padding: 15px;
+}
+    
+
+
+
+/*
+.prices ul{
+    text-decoration:none;
+    list-style: none;
+    font-family: lexend;
+    font-size: 35px;
+    color: #fff;
+    display: inline;
+    flex-wrap: wrap;
+    width: 80px;
+    padding-left: 80px;
+}
+
+.prices li{
+    border-style: solid;
+    border-color: rgb(59, 157, 212);
+    padding-right; 20px;
+}
+*\
+
+
+
+
+
+
+
+
+
+

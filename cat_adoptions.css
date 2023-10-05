@@ -1,0 +1,149 @@
+@charset "UTF-8" 
+    
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: beige;
+    margin:0;
+}
+
+header{
+    background-image: url(images/cats_banner.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 550px;
+    overflow: hidden;
+}
+
+.navbar ul{
+    font-family: lexend deca;
+    list-style: none;
+    padding-right:100px;
+    margin: 0;
+    text-align: right;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    width: 130px;
+    display: block;
+    padding: 25px 20px;
+    font-family: lexend;
+    font-size: 20px;
+    text-align: center;
+}
+
+.title{
+    font-family: montserrat alternates;
+    color: #fff;
+    padding-left: 150px;
+    font-size-adjust: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cat{
+    font-size: 70px;
+    border-style: none;
+    margin-bottom: -2em;
+    margin-top: -1em;
+}
+
+.adoptions{
+    font-size: 27px;
+    border-style: none;
+    margin-bottom: -3.4em;
+}
+
+.paws{
+    border: none;
+    margin-bottom: -17em;
+    background-color: rgb(59, 157, 212);
+}
+
+.adopt {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 300px;
+    justify-content: space-between;
+    position:relative;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.walden p{
+    font-family: lexend;
+    color: rgb(94, 81, 81);
+    font-size: 25px;
+    margin-top: 3px;
+}
+
+.panda p{
+    font-family: lexend;
+    color: rgb(94, 81, 81);
+    font-size: 25px;
+    margin-top: 3px;
+}
+
+.sheriff p{
+    font-family: lexend;
+    color: rgb(94, 81, 81);
+    font-size: 25px;
+    margin-top: 3px;
+}
+
+.whiskers p{
+    font-family: lexend;
+    color: rgb(94, 81, 81);
+    font-size: 25px;
+    margin-top: 3px;
+}
+
+.pebbles p{
+    font-family: lexend;
+    color: rgb(94, 81, 81);
+    font-size: 25px;
+    margin-top: 3px;
+}
+
+.patoots p{
+    font-family: lexend;
+    color: rgb(94, 81, 81);
+    font-size: 25px;
+    margin-top: 3px;
+}
+
+.peek img{
+    width: 1000px;
+    margin-left: 260px;
+    margin-bottom: 0;
+}
+
+footer{
+    margin: 0;
+}
+
+footer p{
+    font-family: lexend;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(94, 81, 81);
+    margin: 0;
+    padding-top: 15px;
+    padding: 15px;
+}
+    
